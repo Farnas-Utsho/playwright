@@ -5,6 +5,8 @@ test('Handle Multi Drop_Down', async ({ page }) =>{
     //Handeling Multiple options selections
     await page.selectOption('#colors',['Blue','Red','Yellow']) 
     
+    await page.waitForTimeout(10000);
+    
 
 
 
